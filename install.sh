@@ -2,8 +2,8 @@
 
 sudo pacman -Sy rsync --noconfirm
 
-mkdir -pv $HOME/.local/share/fonts
+mkdir -pv $HOME/.fonts
 
-rsync -v *.ttf *.TTF $HOME/.local/share/fonts
+rsync -v *.ttf *.TTF $HOME/.fonts
 
 fc-cache
